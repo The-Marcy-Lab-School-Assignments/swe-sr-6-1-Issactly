@@ -26,6 +26,7 @@ In your response, explain what a Stack/Queue is and why it would be best for thi
 What is an Abstract Data Type and why are they worth learning about?
 
 ### Response 3
+An abstract data type is like a container for example a stack that you can add to, remove from and view the upper most item in. Other examples include lists and queues. This kind of data type prioritizes the function rather than structure.
 
 ## Prompt 4
 
@@ -40,9 +41,7 @@ function isBalanced(str) {
   const check = []
   
   while(stack.length) {
-  
     let curr = stack.shift()
-    
     if(check.length == 0) {
       check.push(curr)
     } else {
